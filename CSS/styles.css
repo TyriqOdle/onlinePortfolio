@@ -1,0 +1,300 @@
+@import url('https://fonts.googleapis.com/css2?family=New+Amsterdam&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "New Amsterdam", sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+h1, strong,button{
+    letter-spacing: 2px;
+}
+
+
+/*Styling the Header */
+.header{
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    background-color: black;
+    color: white;
+    height: auto;
+}
+
+.headerName{
+    height: 50px;
+    width:  250px;
+    text-transform: uppercase;
+    font-weight: 1000;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.links{
+    width:  1500px;
+    height: auto;
+}
+
+.headerLinks{
+    height: 50px;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-right: 50px;
+}
+
+.headerLinks li{
+    padding: 10px;
+}
+
+.headerLinks li:hover{
+    background-color: rgb(54, 53, 53);
+    font-size: 20px;
+}
+
+
+/*Styling the Welcome Page*/
+
+.welcome{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: black;
+    align-items: center;
+    height: 700px;
+    width: 100%;
+}
+
+.message{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    width: auto;
+    gap: 20px;
+}
+
+.message h1{
+    text-transform: uppercase;
+    color: gold;
+    font-weight: bolder;
+    font-size: 50px;
+    width: 500px;
+    text-align: center;
+}
+
+.message p{
+    color: white;
+    font-weight: 400;
+    font-size: 20px;
+    width: 560px;
+    font-weight: 500;  
+    text-align: center; 
+}
+
+.myprojects{
+    width: 500px;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.photo{
+    width:  600px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.photo img{
+    width: 300px;
+    border-radius: 1000px;
+}
+
+/*Styling the About Page */
+
+
+.about{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    background-color: black;
+    color: white;
+}
+
+.about .photo{
+    width: 500px;
+}
+
+.about .photo img{
+    width: 500px;
+}
+.aboutContent{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.title hr{
+   border: solid gold;
+   width: 130px;
+   
+}
+
+.aboutMe{
+    width: 700px;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+.infobox{
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    padding: 20px;
+    border: solid gold;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.cv{
+    width: 150px;
+}
+
+button{
+    width: 150px;
+    height: 50px;
+    background-color: gold;
+    color: white;
+    font-weight: 1000;
+    font-size: 15px;
+    border-radius: 10px;
+}
+
+/*Styling the Skills Page */
+
+.skills{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    gap: 30px;
+}
+
+.skills h1{
+    text-transform: uppercase;
+    font-weight: 900;
+}
+.skills hr{
+    border: solid gold;
+    width: 130px;
+    transform: translateY(-30px);
+}
+
+.skills p{
+    width: 560px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.skillContent{
+    display: flex;
+    gap: 100px;
+}
+
+.bar{
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.skillbox{
+    background-color: rgb(54, 53, 53);
+    width: 300px;
+    height: 20px;
+    border-radius: 200px;
+}
+
+.skillbar{
+    height: 20px;
+    background-color: gold;
+    font-weight: 900;
+    text-align: right;
+    padding-right: 10px;
+    border-radius: 200px;
+   
+}
+
+.skillbar#HTML{
+    width: 230px;
+}
+
+.skillbar#CSS{
+    width: 200px;
+}
+
+.skillbar#JS{
+    width: 50px;
+}
+
+/*Styling the projects page. */
+
+.projects{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    color: white;
+    background-color: black;
+}
+
+.projects > p{
+    width: 500px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.projectsContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+    padding: 50px;
+    height: auto;
+}
+
+.project{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: solid gold;
+    border-radius: 20px;
+    padding: 10px;
+    width: 225px;
+}
+
+.projects hr{
+    border: solid gold;
+    width: 130px;
+    transform: translateY(-35px);
+}
+
+.project button{
+    font-size: 30px;
+}
+
