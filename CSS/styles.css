@@ -288,6 +288,14 @@ button{
     width: 225px;
 }
 
+.projectTitle{
+    text-align: center;
+}
+
+.projectDescription{
+    text-align: center;
+}
+
 .projects hr{
     border: solid gold;
     width: 130px;
